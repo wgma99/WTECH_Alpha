@@ -1,0 +1,65 @@
+.header__bottom {
+  display: none;
+}
+
+.main__enterprises__container {
+  margin: 0 auto;
+}
+.main__computers--top h2 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+.main__phones--top h2 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+.main__accessories--top h2 {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+}
+.main__setups--top h2 {
+  text-align: center;
+  font-size: 3rem;
+  line-height: 3rem;
+}
+.main__setups--top h3 {
+  text-align: center;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+.main__setups--container::-webkit-scrollbar {
+  height: 5px;
+  background: transparent;
+}
+.main__setups--container::-webkit-scrollbar-thumb {
+  height: 5px;
+  border-radius: 5px;
+  background: #333333;
+}
+.main__setups--container {
+  height: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  -ms-scroll-snap-type: x proximity;
+      scroll-snap-type: x proximity;
+}
+.main__setups--container-images {
+  height: 200px;
+  scroll-snap-align: center;
+}
+.main__setups--container-images img {
+  -webkit-box-shadow: 0 0 5px #333333;
+          box-shadow: 0 0 5px #333333;
+}
+.main__setups--container .small {
+  height: 200px;
+}
+.main__setups--container .medium {
+  height: 200px;
+}

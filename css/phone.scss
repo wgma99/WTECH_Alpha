@@ -1,0 +1,83 @@
+.header {
+    &__bottom {
+        display: none;
+    }
+}
+
+.main {
+
+    &__enterprises__container {
+        margin: 0 auto;
+    }
+
+    &__computers--top h2 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    &__phones--top h2 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    &__accessories--top h2 {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+
+    &__setups {
+        
+        &--top {
+     
+            & h2 {
+                text-align: center;
+                font-size: 3rem;
+                line-height: 3rem;
+            }
+        
+            & h3 {
+                text-align: center;
+                font-size: 1.8rem;
+                line-height: 1.8rem;
+            }
+        }
+
+        &--container::-webkit-scrollbar {
+            height: 5px;
+            background: transparent;
+        }
+    
+        &--container::-webkit-scrollbar-thumb {
+            height: 5px;
+            border-radius: 5px;
+            background: #333333;
+        }
+
+        &--container {
+            height: 230px;
+            display: flex;
+            align-items: center;
+            overflow-x: scroll;
+            overscroll-behavior-x: contain;
+            scroll-snap-type: x proximity;
+            
+            &-images {
+                height: 200px;
+                scroll-snap-align: center;
+
+                & img {  
+                    box-shadow: 0 0 5px #333333;
+                }
+            }
+
+            & .small {
+                height: 200px;
+            }
+
+            & .medium {
+                height: 200px;
+            }
+        }
+
+    }
+}
